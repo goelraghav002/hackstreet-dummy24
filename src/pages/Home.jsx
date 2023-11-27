@@ -18,7 +18,7 @@ const Home = () => {
             <Timeline />
             <Prizes />
             <Speakers />
-            <Organizers />
+            {/* <Organizers /> */}
             <FrequentlyAsked />
             <Footer />
         </div>
