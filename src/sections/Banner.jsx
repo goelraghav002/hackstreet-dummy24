@@ -23,14 +23,7 @@ const Banner = () => {
             />
           </span>
         <div>&nbsp;</div>
-          <div className="banner-link">
-            {/* <p>on 2nd and 3rd october</p> */}
-          <Link to="https://unstop.com/p/this-fpgathon-comes-with-multiple-challenges-as-well-as-opportunities-the-external-hackathon-powered-by-amd-brings-abo-788326" className='join_disco'>Register on Unstop</Link>
-
-          <a href={problem} target='_blank' rel="noreferrer" className='devfolio'>Problem Statements</a>
- 
-            
-          </div>
+         
 
           <div className="bottom">
             <p>Follow us on social media for updates</p>

@@ -96,15 +96,4 @@ export const faqs = [
     answer:
       "You can register through our events’ website. Keep in mind of the respective deadlines. Remember to sign up separately.",
   },
-  {
-    question: "What is Hackstreet24?",
-    answer:
-      "Hackstreet24 is Field Programmable Gate Array. It is a development board, generally used for VLSI verification of IC. These development boards are now also used in embedded systems due to their low power consumption, high speed data processing and various other key features.",
-  },
-  {
-    question:
-      "I don’t know about Hackstreet24 in great detail. Can I still participate?",
-    answer:
-      "Before the hackathon, there will also be a 4-day workshop, teaching the same.",
-  },
 ];
