@@ -11,7 +11,9 @@ const Timeline = () => {
   return (
     <div className="timeline-section">
       <h3 className='text-center text-[3rem] mb-8 font-bold'>Timeline</h3>
-      <VerticalTimeline lineColor='#3498db'>
+      <h3 className='text-center text-[3rem] mb-8 text-gray-600 font-bold'>Coming Soon!</h3>
+      
+      {/* <VerticalTimeline lineColor='#3498db'>
 
         {timeline.map((item, index) => {
           return (
@@ -32,7 +34,7 @@ const Timeline = () => {
           )
         })
       } 
-      </VerticalTimeline>
+      </VerticalTimeline> */}
     </div>
   );
 }
