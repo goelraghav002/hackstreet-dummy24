@@ -75,7 +75,7 @@ export const faqs = [
   {
     question: "How do I participate?",
     answer:
-      "Look for FPGA hackathons that are currently accepting participants.Once you find a hackathon that interests you, register for the event through the provided registration process.Ensure you have access to the necessary FPGA hardware and development tools",
+      "Look for Hackstreet24 hackathons that are currently accepting participants.Once you find a hackathon that interests you, register for the event through the provided registration process.Ensure you have access to the necessary Hackstreet24 hardware and development tools",
   },
   {
     question: "What is the criteria for judging?",
@@ -95,16 +95,5 @@ export const faqs = [
     question: "Where to sign up?",
     answer:
       "You can register through our events’ website. Keep in mind of the respective deadlines. Remember to sign up separately.",
-  },
-  {
-    question: "What is FPGA?",
-    answer:
-      "FPGA is Field Programmable Gate Array. It is a development board, generally used for VLSI verification of IC. These development boards are now also used in embedded systems due to their low power consumption, high speed data processing and various other key features.",
-  },
-  {
-    question:
-      "I don’t know about FPGA in great detail. Can I still participate?",
-    answer:
-      "Before the hackathon, there will also be a 4-day workshop, teaching the same.",
   },
 ];

@@ -11,11 +11,11 @@ const Banner = () => {
   
     <div className="landing" id="home">      
         <div className='content'>
-          <h1>FPGA-THON</h1>
+          <h1>Hackstreet24</h1>
           <span className='typewriter'>
             <Typewriter
               options={{
-              strings: ['Unleash the FPGA Power: Code, Create, Compete!', 'Ignite Your Innovation with Hardware Hacks!'],
+              strings: ['Unleash the Hackstreet24 Power: Code, Create, Compete!', 'Ignite Your Innovation with Hardware Hacks!'],
                 autoStart: true,
                 loop: true,
               }}
@@ -23,14 +23,7 @@ const Banner = () => {
             />
           </span>
         <div>&nbsp;</div>
-          <div className="banner-link">
-            {/* <p>on 2nd and 3rd october</p> */}
-          <Link to="https://unstop.com/p/this-fpgathon-comes-with-multiple-challenges-as-well-as-opportunities-the-external-hackathon-powered-by-amd-brings-abo-788326" className='join_disco'>Register on Unstop</Link>
-
-          <a href={problem} target='_blank' rel="noreferrer" className='devfolio'>Problem Statements</a>
- 
-            
-          </div>
+         
 
           <div className="bottom">
             <p>Follow us on social media for updates</p>
