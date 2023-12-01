@@ -75,7 +75,7 @@ export const faqs = [
   {
     question: "How do I participate?",
     answer:
-      "Look for Hackstreet24 hackathons that are currently accepting participants.Once you find a hackathon that interests you, register for the event through the provided registration process.Ensure you have access to the necessary Hackstreet24 hardware and development tools",
+      "Look for Hackstreet 2.0 hackathons that are currently accepting participants.Once you find a hackathon that interests you, register for the event through the provided registration process.Ensure you have access to the necessary Hackstreet 2.0 hardware and development tools",
   },
   {
     question: "What is the criteria for judging?",
