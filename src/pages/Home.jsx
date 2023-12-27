@@ -8,6 +8,7 @@ import Organizers from '../sections/Organizers'
 import Footer from '../components/Footer'
 import Prizes from '../sections/Prizes'
 import Speakers from '../sections/Speakers'
+import Tracks from '../sections/Tracks'
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Navbar />
             <Banner />
             <About />
+            <Tracks />
             <Timeline />
             <Prizes />
             <Speakers />

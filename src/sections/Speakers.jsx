@@ -21,7 +21,7 @@ const Speakers = () => {
         <div className="SpeakersSection" id="speakers">
             <h1 className="speaker-heading">Speakers</h1>
             <div className='speakers-grid-container'>
-                <h1>Comin Soon...</h1>
+                <h1>Coming Soon...</h1>
                 {/* {speakers.map((s, i) => (
                     <EachSpeaker key={i} img={s.img} name={s.name} designation={s.designation} />
                 ))} */}
