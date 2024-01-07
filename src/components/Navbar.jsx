@@ -38,7 +38,7 @@ const Navbar = () => {
                 <img src={logo} alt="" width="80px" />
               </span>
             </li>
-            {["Home", "About", "Prizes", "Speakers", "Organizers", "FAQ"].map(
+            {["Home", "About", "Prizes", "Organizers", "FAQ"].map(
               (item) => (
                 <li key={`link-${item}`}>
                   <a href={`#${item.toLowerCase()}`}>
@@ -69,7 +69,7 @@ const Navbar = () => {
                   "Home",
                   "About",
                   "Prizes",
-                  "Speakers",
+                  // "Speakers",
                   "Organizers",
                   "FAQ",
                 ].map((item) => (
