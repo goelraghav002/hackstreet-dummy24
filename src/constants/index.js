@@ -1,5 +1,5 @@
 import { ieee, jiit, amd, aujus } from "../assets/organizers";
-import { Dr_Shruti_Kalra, Ayush_Kumar, Priyanshi_Rai, Abiha_Naqvi, Ansh, Aryan_Gupta, Aryesh_Srivastava, Avisha_Goyal, Devang, Ishika, Komal_Paliwal, Manan, Megha, Nikita_Bansal, Nitya_Kapur, Raghav_Goel, Saara_Tyagi, Shaheera_Fatima, Tanish_Goyal, Tanya_Gupta } from "../assets/speakers";
+import { Ayush_Kumar, Priyanshi_Rai, Abiha_Naqvi, Ansh, Aryan_Gupta, Aryesh_Srivastava, Avisha_Goyal, Devang, Ishika, Komal_Paliwal, Manan, Megha, Nikita_Bansal, Nitya_Kapur, Raghav_Goel, Saara_Tyagi, Shaheera_Fatima, Tanish_Goyal, Tanya_Gupta } from "../assets/speakers";
 export const prizes = [
   {
     icon: '<i class="first fa-solid fa-trophy fa-4x"></i>',
@@ -35,11 +35,6 @@ export const organizers = [
 ];
 
 export const speakers = [
-  {
-    name: "Dr. Shruti Kalra",
-    designation: "FACULTY COORDINATOR",
-    img: Dr_Shruti_Kalra,
-  },
   {
     name: "Ayush Kumar",
     designation: "GitHub Campus Expert",
