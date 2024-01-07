@@ -5,7 +5,7 @@ import './About.css';
 const ABOUT_SECTION = {
   TITLE: 'What is Hackstreet 2.0?',
   LONG_DESCRIPTION:
-    "Hackstreet is 18 hour long running hackathon. We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Hackstreet will have unique opportunities to learn from each other trying hands in new technologies. We are determined to have an all-inclusive and diverse group of students attending.",
+    "Hackstreet is 24 hour long running hackathon. We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Hackstreet will have unique opportunities to learn from each other trying hands in new technologies. We are determined to have an all-inclusive and diverse group of students attending.",
   LOGO: hackathonLogo,
 };
 

@@ -3,7 +3,8 @@ import logo from '../assets/logo.png';
 import {HiX} from "react-icons/hi"
 import {AiOutlineMenu} from "react-icons/ai"
 import './Navbar.scss';
-import {motion } from "framer-motion"
+import { motion } from "framer-motion"
+import { codeOfConduct } from '../assets';
 
 const NAVIGATION_OFFSET = 66;
 
@@ -29,43 +30,71 @@ const Navbar = () => {
 
   return (
     <>
-      
-      <nav className={`nav_bar ${isOffset && 'nav_bar-offset-crossed'}`}>
-          <div className='nav-content'>
-            <ul>
-              <li><span className="links"><img src={logo} alt="" width="80px" /></span></li>
-              {["Home", "About", "Prizes", "Speakers", "Organizers", "FAQ"].map((item) => (
-                <li  key={`link-${item}`}>
-                    <a href={`#${item.toLowerCase()}`}>  <span className='links'> {item} </span> </a>                 
+      <nav className={`nav_bar ${isOffset && "nav_bar-offset-crossed"}`}>
+        <div className="nav-content">
+          <ul>
+            <li>
+              <span className="links">
+                <img src={logo} alt="" width="80px" />
+              </span>
+            </li>
+            {["Home", "About", "Prizes", "Speakers", "Organizers", "FAQ"].map(
+              (item) => (
+                <li key={`link-${item}`}>
+                  <a href={`#${item.toLowerCase()}`}>
+                    {" "}
+                    <span className="links"> {item} </span>{" "}
+                  </a>
                 </li>
-              ))}
-            </ul>
-          </div>
+              )
+            )}
+            <li className="p-text">
+              <a href={codeOfConduct} target="_blank" rel="noreferrer">
+                <span className="links">Code of Conduct</span>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-
-          <div className='app__navbar-menu'>
-            <AiOutlineMenu onClick={() => setNavtoggle(true)} />
-            {navtoggle && (
-              <motion.div 
-                whileInView={{ x : [200,0]}} 
-                transition={{duration: 0.65, ease: "easeOut"}}
-
-              >
+        <div className="app__navbar-menu">
+          <AiOutlineMenu onClick={() => setNavtoggle(true)} />
+          {navtoggle && (
+            <motion.div
+              whileInView={{ x: [200, 0] }}
+              transition={{ duration: 0.65, ease: "easeOut" }}
+            >
               <ul>
                 <HiX onClick={() => setNavtoggle(false)} />
-                {["Home", "About", "Prizes", "Speakers", "Organizers", "FAQ"].map((item) => (
-                  <li className='p-text' key={`${item}`}>
-                      <a href={ `#${item.toLowerCase()}`} onClick={() => setNavtoggle(false)}> {item} </a>
+                {[
+                  "Home",
+                  "About",
+                  "Prizes",
+                  "Speakers",
+                  "Organizers",
+                  "FAQ",
+                ].map((item) => (
+                  <li className="p-text" key={`${item}`}>
+                    <a
+                      href={`#${item.toLowerCase()}`}
+                      onClick={() => setNavtoggle(false)}
+                    >
+                      {" "}
+                      {item}{" "}
+                    </a>
                   </li>
                 ))}
+                <li className="p-text">
+                  <a href={codeOfConduct} target="_blank" rel="noreferrer">
+                    <span className="links">Code of Conduct</span>
+                  </a>
+                </li>
               </ul>
-              </motion.div>
-            )}
-          </div>
+            </motion.div>
+          )}
+        </div>
       </nav>
     </>
-
-  )
+  );
 }
 
 export default Navbar
